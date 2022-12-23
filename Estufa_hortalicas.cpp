@@ -32,7 +32,7 @@ void loop()
     temp = (tensao-500)/10;			// Converte a tensão na temperatura
 
     Serial.print(" Temperatura: ");
-    Serial.print(valorTPM);
+    Serial.print(temp);
     Serial.print(" \xB0"); 	// mostra o símbolo de grau
     Serial.println("C"); 		// mostra a unidade de tempetatura
     
